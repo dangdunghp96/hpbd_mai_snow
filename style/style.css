@@ -13,9 +13,9 @@ body {
   width: 100vh;
   margin: 0 auto;
   text-align: center;
-  visibility: hidden;
+  visibility: visible;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .container div.six {
@@ -124,8 +124,8 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -14px;
+  width: 57px;
+  top: -12px;
   left: 48%;
   /* transform: scale(0.1); */
 }
@@ -236,7 +236,7 @@ body {
 }
 
 .lydia-dp {
-  width: 380px;
+  width: 250px;
 }
 
 #confetti {
@@ -248,9 +248,11 @@ body {
   visibility: hidden;
 }
 
-/* .container div.eight {
+.container div.ten {
+  display: none;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
-} */
+  left: 0;
+  top: 100px;
+} 

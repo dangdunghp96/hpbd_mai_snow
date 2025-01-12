@@ -226,6 +226,12 @@ const animationTimeline = () => {
       rotation: -180,
       opacity: 0
     })
+    .to(".cake", 0.5, {
+      visibility: "visible",
+    })
+    .to(".fuego", 0.5, {
+      visibility: "visible",
+    })
     .staggerFrom(
       ".wish-hbd span",
       0.7,
@@ -286,7 +292,7 @@ const animationTimeline = () => {
         rotation: 90
       },
       "+=1"
-    );
+    )
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
