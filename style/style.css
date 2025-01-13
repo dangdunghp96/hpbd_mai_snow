@@ -13,9 +13,9 @@ body {
   width: 100vh;
   margin: 0 auto;
   text-align: center;
-  visibility: visible;
+  visibility: hidden;
   position: relative;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .container div.six {
